@@ -7,9 +7,9 @@ script:
 after_success:
    - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
      docker login -u="$DOCKER_USER" -p="$DOCKER_PASS";
-     docker push softinstigate/lektor:latest
-     docker tag softinstigate/lektor:latest softinstigate/lektor:$LEKTOR_VERSION
-     docker push softinstigate/lektor:$LEKTOR_VERSION
+     docker push softinstigate/lektor:latest;
+     docker tag softinstigate/lektor:latest softinstigate/lektor:$LEKTOR_VERSION;
+     docker push softinstigate/lektor:$LEKTOR_VERSION;
      fi  
 
 env:
