@@ -1,7 +1,9 @@
 # lektor-docker
 Docker container for running Lektor CMS https://www.getlektor.com
 
-Images are built and pushed by Travis-CI
+[![Build Status](https://travis-ci.org/SoftInstigate/lektor-docker.svg?branch=master)](https://travis-ci.org/SoftInstigate/lektor-docker)
+
+https://hub.docker.com/r/softinstigate/lektor/
 
 ## Base image
 Python:2.7
