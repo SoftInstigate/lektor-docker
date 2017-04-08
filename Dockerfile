@@ -8,7 +8,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x > node_install.sh
 RUN chmod +x ./node_install.sh
 RUN ./node_install.sh
 RUN apt-get install -y apt-utils nodejs
-RUN npm install -g bower
+RUN npm install -g bower gulp grunt-cli
 RUN virtualenv venv
 RUN . venv/bin/activate
 RUN pip install 'Lektor==2.3'

@@ -12,4 +12,6 @@ Python:2.7
 * Lektor 2.3
 * Nodejs 6.x with npm
 * Bower 1.8
+* Gulp CLI 3.9.1
+* Grunt CLI 1.2.0
 * Amazon AWS CLI 1.11.x
