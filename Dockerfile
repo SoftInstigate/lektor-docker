@@ -12,4 +12,4 @@ RUN npm install -g bower gulp grunt-cli
 RUN virtualenv venv
 RUN . venv/bin/activate
 RUN pip install 'Lektor==2.3'
-RUN pip install 'awscli==1.11.65'
+RUN pip install 'awscli==1.11.76'
