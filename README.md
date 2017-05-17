@@ -11,7 +11,10 @@ Python:2.7
 ## Additional installed packages
 * Lektor 2.3
 * Nodejs 6.x with npm
-* Bower 1.8
-* Gulp CLI 3.9.1
-* Grunt CLI 1.2.0
+* yarn 0.x
+* typings 2.x
+* bower 1.x
+* gulp 3.x
+* grunt-cli 1.x
+* @angular/cli 1.0.x
 * Amazon AWS CLI 1.11.x
