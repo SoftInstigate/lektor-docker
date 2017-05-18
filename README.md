@@ -16,5 +16,4 @@ Python:2.7
 * bower 1.x
 * gulp 3.x
 * grunt-cli 1.x
-* @angular/cli 1.0.x
 * Amazon AWS CLI 1.11.x

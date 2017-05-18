@@ -11,7 +11,7 @@ RUN curl -sS http://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 RUN echo "deb http://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
 RUN apt-get update
 RUN apt-get install -y apt-utils nodejs yarn
-RUN yarn global add typings@2.x bower@1.x gulp@3.x grunt-cli@1.x @angular/cli@1.0.x
+RUN yarn global add typings@2.x bower@1.x gulp@3.x grunt-cli@1.x
 RUN virtualenv venv
 RUN . venv/bin/activate
 RUN pip install 'Lektor==2.3'
