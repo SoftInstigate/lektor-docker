@@ -11,7 +11,7 @@ Python:2.7
 ## Additional installed packages
 * Lektor 2.3
 * Nodejs 6.x with npm
-* yarn 0.24
+* yarn 0.x
 * typings 2.x
 * bower 1.x
 * gulp 3.x
