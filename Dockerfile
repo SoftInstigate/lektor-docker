@@ -15,4 +15,4 @@ RUN yarn global add typings@2.x bower@1.x gulp@3.x grunt-cli@1.x
 RUN virtualenv venv
 RUN . venv/bin/activate
 RUN pip install 'Lektor==2.3'
-RUN pip install 'awscli==1.11.87'
+RUN pip install 'awscli==1.11.94'
