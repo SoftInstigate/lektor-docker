@@ -9,11 +9,11 @@ https://hub.docker.com/r/softinstigate/lektor/
 Python:2.7
 
 ## Additional installed packages
-* Lektor 2.3
+* Lektor 3.0
 * Nodejs 6.x with npm
-* yarn 0.x
+* yarn
 * typings 2.x
 * bower 1.x
 * gulp 3.x
 * grunt-cli 1.x
-* Amazon AWS CLI 1.11.x
+* Amazon AWS CLI
