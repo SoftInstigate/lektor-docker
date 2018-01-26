@@ -1,6 +1,6 @@
 FROM python:2.7
 
-MAINTAINER SoftInstigate <info@softinstigate.com>
+LABEL maintainer="SoftInstigate <info@softinstigate.com>"
 
 WORKDIR /opt/lektor
 
