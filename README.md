@@ -8,9 +8,13 @@ We mainly use this in continuous integration & delivery pipelines, deploying to 
 
 Docker builds: https://hub.docker.com/r/softinstigate/lektor/
 
+**Warning**: you must pull the exact Lektor version, as there's no `latest` tag.
+
+ `docker pull softinstigate/lektor:3.1`
+
 ## Base image
 
-Python:2.7
+`python:2.7`
 
 ## Istalled packages
 
