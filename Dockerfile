@@ -2,6 +2,8 @@ FROM python:2.7
 
 LABEL maintainer="SoftInstigate <info@softinstigate.com>"
 
+ARG RELEASE
+
 WORKDIR /opt/lektor
 
 RUN curl -sL https://deb.nodesource.com/setup_6.x > node_install.sh
@@ -14,5 +16,5 @@ RUN apt-get install -y apt-utils nodejs yarn
 RUN yarn global add typings@2.x bower@1.x gulp@3.x grunt-cli@1.x
 RUN virtualenv venv
 RUN . venv/bin/activate
-RUN pip install 'Lektor==3.0.1'
+RUN pip install "Lektor==$RELEASE"
 RUN pip install awscli
