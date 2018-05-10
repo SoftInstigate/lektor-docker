@@ -21,7 +21,6 @@ Docker builds: https://hub.docker.com/r/softinstigate/lektor/
 * Lektor 3.x
 * Nodejs 6.x with npm
 * yarn
-* typings 2.x
 * bower 1.x
 * gulp 4.x
 * grunt-cli 1.x
