@@ -16,7 +16,7 @@ Docker builds: https://hub.docker.com/r/softinstigate/lektor/
 
 `python:2.7`
 
-## Istalled packages
+## Installed packages
 
 * Lektor 3.x
 * Nodejs 8.x with npm
