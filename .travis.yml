@@ -2,8 +2,8 @@ services:
   - docker
 
 script:
-  - docker build --build-arg RELEASE=$LEKTOR_VERSION -t softinstigate/lektor:$LEKTOR_VERSION .
-    docker tag softinstigate/lektor:latest softinstigate/lektor:"$LEKTOR_VERSION"
+  - docker build --build-arg RELEASE=$LEKTOR_VERSION -t softinstigate/lektor:$LEKTOR_VERSION . -p="$DOCKER_PASS";
+  - docker tag softinstigate/lektor:latest softinstigate/lektor:"$LEKTOR_VERSION";
 
 after_success:
   - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then 
