@@ -18,3 +18,5 @@ RUN virtualenv venv
 RUN . venv/bin/activate
 RUN pip install "Lektor==$RELEASE"
 RUN pip install awscli
+
+ENTRYPOINT [ "lektor" ]
