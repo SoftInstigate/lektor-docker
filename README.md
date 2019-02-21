@@ -1,10 +1,12 @@
 # lektor-docker
 
+[![Build Status](https://travis-ci.org/SoftInstigate/lektor-docker.svg?branch=master)](https://travis-ci.org/SoftInstigate/lektor-docker)
+[![Docker Stars](https://img.shields.io/docker/stars/softinstigate/lektor.svg?maxAge=2592000&logo=docker)](https://hub.docker.com/r/softinstigate/lektor/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/softinstigate/lektor.svg?maxAge=2592000&logo=docker)](https://hub.docker.com/r/softinstigate/lektor/)
+
 Docker container for running [Lektor CMS](https://www.getlektor.com), plus some useful Javascript tools.
 
 We mainly use this in continuous integration & delivery pipelines, deploying to AWS.
-
-[![Build Status](https://travis-ci.org/SoftInstigate/lektor-docker.svg?branch=master)](https://travis-ci.org/SoftInstigate/lektor-docker)
 
 Docker builds: https://hub.docker.com/r/softinstigate/lektor/
 
