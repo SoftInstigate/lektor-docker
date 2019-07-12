@@ -25,3 +25,19 @@ Docker builds: https://hub.docker.com/r/softinstigate/lektor/
 * gulp 4.x
 * grunt-cli 1.x
 * Amazon AWS CLI
+
+## Examples
+
+First of all, `cd` into a Lektor project.
+
+To build the site:
+
+```bash
+docker run --rm  -v $(pwd):/opt/lektor softinstigate/lektor build
+```
+
+To serve the site:
+
+```bash
+docker run --rm  -v $(pwd):/opt/lektor -p 5000:5000 softinstigate/lektor server --host 0.0.0.0
+```
