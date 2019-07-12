@@ -19,4 +19,6 @@ RUN . venv/bin/activate
 RUN pip install "Lektor==$RELEASE"
 RUN pip install awscli
 
+EXPOSE 5000
+
 ENTRYPOINT [ "lektor" ]
