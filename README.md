@@ -28,7 +28,9 @@ Docker builds: https://hub.docker.com/r/softinstigate/lektor/
 
 ## Examples
 
-First of all, `cd` into a Lektor project.
+First of all, please read the [Lektor quickstart](https://www.getlektor.com/docs/quickstart/) so that you know the basic lektor commands.
+
+You must `cd` into an __alredy existing Lektor project__.
 
 To build the site:
 
